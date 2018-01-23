@@ -1,0 +1,235 @@
+/* UZIT DONATE CSS */
+::-webkit-input-placeholder { color:#777;font-style:italic;}
+::-moz-placeholder { color:#777;font-style:italic; } /* firefox 19+ */
+:-ms-input-placeholder { color:#777;font-style:italic; } /* ie */
+input:-moz-placeholder { color:#777;font-style:italic; }
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, 
+.ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+    border:none;
+    background:none;
+}
+.ui-dialog .ui-dialog-buttonpane button{
+    margin:2px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background:transparent;
+    border:none;
+}
+
+#Donate{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#Donate .top-section{
+    position:relative;
+    margin-bottom:30px;
+    min-height:345px;
+}
+#Donate .slider-container{
+    float:right;
+    min-width: 420px;
+    max-width:500px;
+    margin-top:15px;
+}
+#Donate .slider-container .sliderWrapper{
+    margin:0;
+}
+#Donate table.other-ways-to-give{
+    width:100%;
+    text-align:center;
+}
+#Donate table.other-ways-to-give td{
+    width:30%;
+}
+#Donate table.other-ways-to-give td a{
+    border:1px solid #63BFDA;
+    display:inline-block;
+    padding: 12px 10px 7px 10px;
+    width:60%;
+}
+#Donate table.other-ways-to-give td a:hover{
+    color:#fff;
+    background-color:#63BFDA;
+}
+#Donate h1{
+    color:#63BFDA;
+    text-align:center;
+}
+#Donate h2, #dialog h2{
+    color:#63BFDA;
+    font-size:30px;
+    font-family:"Conv_HelveticaNeueLTStd-ThEx", "Helvetica", "Open Sans", Arial, serif;
+    text-align:center;
+    line-height:1.3em;
+}
+#dialog h2{
+    line-height: 1;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+}
+#Donate td.cost{
+    text-align:center;
+    vertical-align:top;
+    width:25%;
+}
+#Donate table.ways-to-give{
+    margin:20px 0;
+}
+#Donate td.cost p{
+    color:#63BFDA;
+}
+#Donate td.cost-desc{
+    vertical-align:top;
+    width:75%;
+}
+
+#Donate .slide-title{display:none;}
+#Donate strong{
+    color:#fff;
+    font-style:italic;
+}
+#ThankYou{
+    margin:20px 0;
+}
+form#DonateForm{
+    margin-bottom:0;
+    float:left;
+    width:420px;
+    max-width:500px;
+}
+form#DonateForm .text-header{
+    width:100%;
+    display:inline-block;
+}
+form#DonateForm .text-header h1{
+    margin-bottom:0;
+}
+form#DonateForm .text-header p{
+    margin-bottom:10px;
+}
+form#DonateForm .field.auth_error p{
+    margin-bottom:5px;
+}
+form#DonateForm td input{
+    width:100%;
+}
+
+form#DonateForm .field{
+    width:422px;
+}
+form#DonateForm .field input{
+    margin-bottom:15px;
+}
+form#DonateForm .field input[type="submit"]{
+    border:1px solid #63BFDA;
+    background-color:#63BFDA;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:5px;
+    margin-bottom:0;
+    font-size:15px;
+    width:100%;
+    height:40px;
+}
+form#DonateForm .field td{
+    padding:0 10px 0 0;
+}
+form#DonateForm .field td:last-child{
+    padding:0;
+}
+form#DonateForm .field input[type="submit"]{
+    color:#63BFDA; 
+    background-color:#000;  
+}
+form#DonateForm .field input[type="submit"]:hover{
+    border:1px solid #63BFDA;
+    cursor:pointer;
+    background-color:#333;
+}
+form#DonateForm .field input{
+    width:98%;
+    border-color:#63BFDA;
+    background-color:#000;
+    color:#fff;
+    height:20px;
+}
+form#DonateForm .field input:focus{
+    background-color:#fff;
+    color:#555;
+}
+form#DonateForm ul{
+    display:inline-block;
+    margin-bottom:10px;
+}
+form#DonateForm li{
+    border:1px solid #63BFDA;
+    float:left;
+    position:relative;
+    margin:0 4px;
+    text-align:center;
+    height:30px;
+    overflow:hidden;
+    width:60px;
+}
+form#DonateForm li:last-child{
+    margin-right:0;
+}
+form#DonateForm li label, form#DonateForm li input[type="radio"]{
+    position:absolute;
+    z-index:1; /* temporary set back to 1 */
+    left:0;
+    top:0;
+}
+form#DonateForm li label{
+    background-color:#000;
+    z-index:10;
+    width:100%;
+    padding: 8px 0;
+    height: 14px;
+}
+form#DonateForm li label:hover, form#DonateForm li:hover, form#DonateForm li label.active{
+    cursor:pointer;
+    background-color:#FFF;
+}
+form#DonateForm .pre_amount_label{
+    color:#63BFDA;
+}
+form#DonateForm .pre_amount_label:hover{
+    background-color:#666;
+}
+form#DonateForm .field.donate-amount{
+    position:relative;
+    width:100%;
+    height:50px;
+}
+form#DonateForm .field.donate-amount input{
+    width:387px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    margin:0;
+    padding-left:30px;
+}
+form#DonateForm span.dollar-sign{
+    position:absolute;
+    z-index:10;
+    top:10px;
+    left:10px;
+    font-size: 20px;
+    color:#63BFDA;
+}
+#Donate .error_message{
+    border:1px solid red;
+    color:#fff;
+    background-color:red;
+    padding:10px;
+    margin-bottom:10px;
+}
+#Donate .error_message p{
+    font-size:20px;
+    text-align:center;
+    margin:0;
+}

@@ -1,0 +1,76 @@
+h1{
+    margin:0;
+    line-height:1em;
+}
+a.blog-filter.active{
+    color:#63bfda;
+}
+h1.sub-head-a{
+    color:#63bfda;
+    font-size:45px;
+}
+h1.sub-head-b{
+    color:#63bfda;
+    font-size:23px;
+}
+div.blog-nav{
+    margin:5px auto 0 auto;
+    width:280px;
+    border-top: 1px solid #EBEBEB;
+}
+div.blog-nav li{
+    float:left;
+}
+div.blog-nav li a{
+    color:#fff;
+    font-size:12px;
+    display:inline-block;
+    margin:8px 10px;
+    text-align:center;
+}
+div.blog-nav li a:hover{
+    color:#63bfda;
+}
+div.blog-grid .blog{
+    width:300px;
+}
+.blog-post{
+    width:300px;
+    height:230px;
+    position:relative;
+    float:left;
+    padding:5px;
+}
+a.button{
+    border: 1px solid #63BFDA;
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+#Blog {
+    padding:0 10px;
+}
+#Blog p{
+    color:#555;
+}
+#Blog h3{
+    margin:0;
+}
+#Blog h3.slogan{
+    color:#555;
+    font-size:25px;
+}
+#Blog div.blog-title{
+    margin-bottom:20px;
+}
+#Blog div.blog-top{
+    text-align:center;
+}
+#Blog .blog-info p{
+    font-size:12px;
+}

@@ -1,0 +1,22 @@
+.breadcrumbs{
+    padding:10px 0;
+}
+.breadcrumbs a{
+    color:#fff;
+    font-size:13px;
+}
+.breadcrumbs a:hover{
+    border-bottom:1px solid #fff;
+}
+.content-container{
+    margin:20px 0;
+}
+
+/* Jquery UI Dialog */
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix{
+    background:none;
+    border:none;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all{
+    z-index:99999 !important;
+}

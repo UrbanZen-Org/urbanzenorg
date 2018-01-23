@@ -1,0 +1,36 @@
+.donate_form{
+	background: transparent;
+	color: white;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.donate_form .donation-info span{
+	display: inline-block;
+	vertical-align: top;
+}
+.donate_form .donation-info img{
+	max-width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2em;
+	margin-bottom: 0;
+}
+
+.donate_form table, .donate_form td, .donate_form tr{
+	border: none!important;
+	background-color: transparent!important;
+	color: white!important;
+}
+.donate_form .top-payment-info{
+	margin-bottom: 0!important;
+}
+.donate_form .donation-info-text{
+	margin-top: 40px!important;
+}
+
+@media only screen and (min-width: 640px) {
+	.donate_form .cvv-td .minimal-form-input{
+		width: 100px;
+	}
+}

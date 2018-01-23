@@ -1,0 +1,228 @@
+/* @override 
+	http://www.urbanzen.com/templates/rt_afterburner_j15/css/zoom-style.css
+	http://projects.codetrygroup.com/uz_zoom/css/zoom-style.css
+	http://www.urbanzen.com/wp-content/themes/builder-child/library/css/zoom-style.css */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+			.uz{
+			z-index: 9995;
+			width: 100%;
+			display: block;
+			height: 100%;
+			position: fixed;
+			left: 0;
+			top: 0;
+			}
+			.uz .image.loading{
+				background-image:url('../images/uz-zoom/loading.gif');
+				background-repeat:no-repeat;
+				background-position:center center;
+				background-color:transparent;
+				height:100%;
+				width:100%;
+			}
+			.uz .image{
+			position: fixed;
+			/*background-color:#222222;*/
+			z-index:9997;
+
+			}
+			.uz .background{
+				position:fixed;
+				height:100%;
+				width:100%;
+				display:block;
+				background:url(../images/uz-zoom/transparency-dark.png) repeat 100%;
+			}	
+			.uz .controls{
+			position:fixed;
+			right:-1px;
+			top:0px;
+			height: 100%;
+			background: url(../images/uz-zoom/transparency-dark.png) repeat 100%;
+			z-index:9999;
+			width:265px;
+			box-sizing:border-box;
+			padding: 0 30px;
+
+			}
+			.controls .page-title{
+				font-size: 1.3em;
+				text-transform: uppercase;
+			}pre
+			.controls .pagination{
+				margin: 5px 0;
+				font-size: 1.3em;
+			}
+			.scroll{
+			margin: 30px 0;
+
+			}
+			
+			
+			.image .controls span.close{
+				position: relative;
+				text-indent: -9999px !important;
+				background: url(../images/uz-zoom/sprites.png) no-repeat -2px -110px;
+				float: right;
+				width: 42px;
+				height: 42px;
+				right: 5px;
+				top: 35px;
+				opacity: .8;
+				}
+			
+			.image .controls span.close:hover{
+				opacity: 1;			
+				}	
+				
+				.controls .icon{
+					background: url(../images/uz-zoom/urban_zen_logo_small.png) no-repeat;
+					width: 205px;
+					height: 91px;
+					float: left;
+					display: block;
+					position: absolute;
+					bottom: 10px;
+				}
+				
+			.image .controls .left, .image .controls .right{
+				background: url(../images/uz-zoom/sprites.png) no-repeat ;
+				width: 28px;
+				height: 50px;
+				display: inline-block;
+				background-position: -10px 2px;
+				opacity: .8;
+	
+			}
+			
+			.image .controls .left:hover, .image .controls .right:hover{
+				opacity: 1;
+			}
+			.image .controls .right{
+				background-position: -10px -55px;
+				margin-left: 65px;
+			}
+			
+			
+			.controls a{
+				background: none;
+				float: left;
+				margin: 0 10px 0 0;
+			}
+		
+		
+			.zoom{
+			float: left;
+			margin-bottom: 10px;
+			display: block;
+			display: none;
+			
+			}
+			.zoom .in, .zoom .out{
+				float: left;
+				width: 50px;
+				height:	50px;
+				
+			}
+			.zoom .in{
+				background: url(../images/uz-zoom/sprites.png) no-repeat;
+				background-position:  0 0;
+				margin-right: 10px;
+			}
+			.zoom .out{
+				background: url(../images/uz-zoom/sprites.png) no-repeat;
+				background-position:  0 0;
+				
+			}
+
+			.controls a iframe{
+				display: none !important;
+			}
+			.controls h4{
+				margin: 15px 0;
+				width: 100%;
+				float: left;
+				cursor: pointer;
+				text-transform: uppercase;
+			}
+		
+			
+			.controls a label{
+				float: left;
+				line-height: 2.8em;
+				font-size:1.1em;
+				text-transform: uppercase;
+				font-weight: 300;
+				display: none;
+
+			}			
+			.controls .control a .icon{
+				margin: 0 auto;
+				background: url('../images/uz-zoom/social-buttons.png') no-repeat left top;
+				width: 28px;
+				position: relative;
+				height: 28px;
+				display: block;
+				float: none;
+
+			}
+			.controls a.facebook .icon{
+				background-position: 0 0;
+				margin: 0 auto;
+			}
+			.controls a.facebook:hover .icon{
+				background-position: -31px 0;
+			}
+			
+			.controls a.twitter .icon{
+				background-position: 0 -35px;
+			}
+			.controls a.twitter:hover .icon{
+				background-position: -31px -35px;
+			}
+			
+			.controls a.pinit .icon{
+				background-position: 0 -68px;
+			}
+			.controls a.pinit:hover .icon{
+				background-position: -31px -68px;
+			}
+			
+			.controls a.tumblr .icon{
+				background-position: 0px -103px;
+			}
+			.controls a.tumblr:hover .icon{
+				background-position: -31px -103px;
+			}
+			
+			
+.smooth_zoom_icons{
+background: url('../images/uz-zoom/transparent-1-1.png');
+}
+.addthis_toolbox.control h4:hover {
+color:#b67d5d;
+}
+
+.uz .title{
+	clear: both;
+	display: block;
+	padding-bottom: 30px;
+	
+}
+
+.purchase .title{
+	padding: 0;
+	font-weight: 800;
+	font-size: large;
+}
+

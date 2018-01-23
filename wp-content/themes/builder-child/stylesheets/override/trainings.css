@@ -1,0 +1,27 @@
+.grid.buttons .box{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    height: 210px;
+}
+.grid.buttons .box a {
+    .buttons .box a{
+    border:1px solid #63bfda;
+    width: 100%;
+    height: 65px;
+    display:block;
+    text-align: center;
+    line-height:1.3em;
+    }
+    .buttons .box a:hover{
+    background-color: #63bfda;
+    color:#fff;
+    }
+    .buttons .box span{
+    display: table-cell;
+    text-align: center;
+    width: 300px;
+    vertical-align: middle;
+    height: 65px;
+    }
+}

@@ -1,0 +1,125 @@
+.ui-widget{
+    z-index:99999 !important;
+}
+/*
+.content .overlay{
+    display:none;
+}
+.content:hover .overlay{
+    display: block;
+    background-image: url('/wp-content/themes/MissionWP22/stylesheets/images/trans_bg_black.png');
+    cursor: normal;
+    width:100%;
+    height:100%;
+}
+*/
+.content .overlay{
+    display:none;
+    z-index: 11;
+    position:absolute;
+    text-align:center;
+    width:100%;
+    padding:15px 0;
+    line-height:1.5em;
+}
+.content .overlay span{
+    display:block;
+    line-height:1.5em;
+}
+.content .overlay .overlay-title{
+    color:#63BFDA;
+    font-size:30px;
+    font-weight:400;
+    font-family: "Conv_HelveticaNeueLTStd-ThEx", "Helvetica", "Open Sans", Arial, serif;
+}
+.content .overlay span.overlay-date, .content .overlay span.overlay-link{
+    color:#FFF;
+}
+.content:hover .overlay{
+    display:block;
+}
+.content:hover img{
+    /* IE 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      /* IE 5-7 */
+      filter: alpha(opacity=50);
+      /* Netscape */
+      -moz-opacity: 0.5;
+      /* Safari 1.x */
+      -khtml-opacity: 0.5;
+      /* Good browsers */
+      opacity: 0.5;
+}
+#PressArticle{
+    width:800px;
+    margin: 10px auto;
+}
+#PressArticle .column{
+    float:left;
+    margin-right:20px;
+}
+#PressArticle .column:last-child{
+    margin-right:0;
+}
+#PressArticle .slider-container{
+    width:500px;
+}
+#PressArticle .article-details{
+    width:280px;
+}
+#PressArticle .article-details h1{
+    color:#63BFDA;
+    padding:15px 0;
+}
+#PressArticle .article-details img.press-logo{
+    width:100%;
+    height:auto;
+}
+#PressArticle .article-details a.download-link{
+    border: 1px solid #63BFDA;
+    color:#63BFDA;
+    width:100%;
+    display:block;
+    padding: 5px 0 1px 0;
+    text-align:center;
+}
+#PressArticle .article-details a.download-link:hover{
+    background:#63BFDA;
+    color:#fff;
+}
+
+.social{
+    margin-top:30px;
+}
+.social a{
+    line-height:1.5em;
+    display:block;
+}
+
+.ui-dialog .ui-dialog-content{
+    padding:10px;
+    overflow:hidden;
+}
+.ui-widget-header{
+    /*
+    background:none !important;
+    border:none !important;
+    */
+}
+.ui-dialog-title{
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+    background:none !important;
+    border:none !important;
+}
+.isotope .isotope-item{
+    margin:0px;
+}
+.article .content div.centerer{
+    padding: 5px;
+    width: 285px;
+    height: 190px;
+}

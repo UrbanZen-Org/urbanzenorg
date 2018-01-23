@@ -1,0 +1,19 @@
+# Keep these files out of the repo
+/node_modules
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/wp-content/cache/*
+/sitemap.*
+/wp-config.php
+*.sql
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
+/log
+log
+Gemfile.Lock
+wp-content/ai1wm-backups/
