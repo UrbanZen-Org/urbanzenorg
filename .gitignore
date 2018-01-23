@@ -6,7 +6,7 @@
 /wp-content/cache/*
 /sitemap.*
 /wp-config.php
-*.sql
+*.sql 
 
 # Hidden files
 *.DS_Store
