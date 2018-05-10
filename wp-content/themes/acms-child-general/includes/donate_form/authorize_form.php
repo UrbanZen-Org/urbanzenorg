@@ -186,6 +186,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                             <label id="X_AMOUNT_LABEL" for="X_AMOUNT">I AM DONATING</label>
                             <div><select id="X_AMOUNT" name="x_amount" style="margin:0 0 15px 0;">
                                     <option value="">Select an Amount</option>  
+                                    <option value="25.00">$25</option>
                                   <option value="50.00">$50</option>
                                   <option value="100.00">$100</option>
                                   <option value="500.00">$500</option>                                                                
