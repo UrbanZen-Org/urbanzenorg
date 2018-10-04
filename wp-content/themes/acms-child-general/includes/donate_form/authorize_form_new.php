@@ -229,17 +229,11 @@ endif; //POST
                   <div>
                     <select id="X_AMOUNT" name="x_amount" style="margin:0 0 15px 0;">
                       <option value="">Select an Amount</option>  
-                      <option value="25.00">$25</option>
-                      <option value="50.00">$50</option>
+                      <option value="50.00">$70</option>
                       <option value="100.00">$100</option>
-                      <option value="500.00">$500</option>      
-                      <option value="1000.00">$1,000</option>
-                      <option value="3500.00">$3,500</option>
-                      <option value="5000.00">$5,000</option>
-                      <option value="7500.00">$7,500</option>
-                      <option value="10000.00">$10,000</option> 
-                      <option value="25000.00">$25,000</option> 
-                      <option value="50000.00">$50,000</option>                      
+                      <option value="250.00">$250</option>
+                      <option value="500.00">$500</option>
+                      <option value="1000.00">$1,000</option>                   
                     </select>
                   </div>
                 </td>
